@@ -1,0 +1,39 @@
+body {
+    background: url(hGSKyo8.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+ul {
+    color: white;
+}
+
+h1 {
+    width: fit-content;
+    border-style: solid;
+    border-color: aqua;
+    box-shadow: 4px 4px 5px #888888;
+}
+
+#lorem {
+    color: #888888;
+}
+
+.button {
+    margin: 5px 0px;
+    box-shadow: 4px 4px 5px #888888; 
+}
+
+.boxart {
+    width: 50px;
+    height: 50px;
+    transition: all .5s;
+}
+
+.boxart:hover {
+    transform: scale(1.1);
+    transform: rotate(-15deg);
+}
+
